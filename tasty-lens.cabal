@@ -27,7 +27,7 @@ library
                        Test.Tasty.Lens.Prism
                        Test.Tasty.Lens.Setter
                        Test.Tasty.Lens.Traversal
-  build-depends:       base >=4.6 && <4.10,
+  build-depends:       base >=4.6 && <5.0,
                        lens >=4.1.2.1,
                        lens-laws,
                        tasty >=0.10,
@@ -41,7 +41,7 @@ test-suite tasty
   hs-source-dirs:      tests
   main-is:             tasty.hs
   ghc-options:         -Wall -threaded
-  build-depends:       base >= 4.6 && <4.9,
+  build-depends:       base >= 4.6 && <5.0,
                        lens >=4.1.2.1,
                        tasty >=0.10,
                        tasty-dumbcheck,
